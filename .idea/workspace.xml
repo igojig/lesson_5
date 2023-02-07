@@ -4,23 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6ab2bc1-add8-4a52-827b-83b78a08c9d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/ru/igojig/cloud/discovery/DiscoveryServiceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting-service/src/main/java/ru/igojig/cloud/service/greeting/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting-service/src/main/java/ru/igojig/cloud/service/greeting/GreetingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slow-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slow-service/src/main/java/ru/igojig/cloud/service/slow/SlowApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slow-service/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="a6ab2bc1-add8-4a52-827b-83b78a08c9d0" name="Changes" comment="base project - Фисунов">
+      <change afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/ru/igojig/cloud/common/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/java/ru/gojig/cloud/front/service/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/java/ru/gojig/cloud/front/service/FrontApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/java/ru/gojig/cloud/front/service/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-service/src/main/resources/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/ru/igojig/cloud/service/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/ru/igojig/cloud/service/product/ProductApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/ru/igojig/cloud/service/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/ru/igojig/cloud/service/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/ru/igojig/cloud/service/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,28 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GeekBrains/3 четверь/Spring_2_cloud/lesson_5&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/GeekBrains/3 четверь/Spring_2_cloud/lesson_5"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GeekBrains\3 четверь\Spring_2_cloud\lesson_5" />
+      <recent name="D:\GeekBrains\3 четверь\Spring_2_cloud\lesson_5\product-service\src\main\resources\db\migration" />
       <recent name="D:\GeekBrains\3 четверь\Spring_2_cloud\lesson_5\discovery-service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.igojig.cloud.service.slow.SlowApplication">
-    <configuration name="GreetingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flamexander.cloud.service.greeting.GreetingApp" />
-      <module name="greeting-service" />
+  <component name="RunManager" selected="Application.FrontApp">
+    <configuration name="FrontApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gojig.cloud.front.service.FrontApp" />
+      <module name="front-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flamexander.cloud.service.greeting.*" />
+          <option name="PATTERN" value="ru.gojig.cloud.front.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlowApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flamexander.cloud.service.slow.SlowApplication" />
-      <module name="slow-service" />
+    <configuration name="ProductApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.igojig.cloud.service.product.ProductApp" />
+      <module name="product-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flamexander.cloud.service.slow.*" />
+          <option name="PATTERN" value="ru.igojig.cloud.service.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrontApp" />
+        <item itemvalue="Application.ProductApp" />
+        <item itemvalue="Application.ru.igojig.cloud.discovery.DiscoveryServiceApp" />
         <item itemvalue="Application.ru.igojig.cloud.service.slow.SlowApplication" />
         <item itemvalue="Application.ru.igojig.cloud.service.greeting.GreetingApp" />
-        <item itemvalue="Application.ru.igojig.cloud.discovery.DiscoveryServiceApp" />
-        <item itemvalue="Application.GreetingApp" />
-        <item itemvalue="Application.SlowApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +164,48 @@
       <option name="presentableId" value="Default" />
       <updated>1675546142185</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1675595075321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675595075321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="base project - Фисунов">
+      <created>1675595129479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675595129479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="base project - Фисунов" />
+    <option name="LAST_COMMIT_MESSAGE" value="base project - Фисунов" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/front-service/src/main/java/ru/gojig/cloud/front/service/FrontController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
